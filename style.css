@@ -93,9 +93,7 @@ footer{
     font-size: 15px;
     margin-top: 5px;
 }
-.attribution{
-    text-align: center;
-}
+
 @media screen and ( min-width: 960px ){
     body{
         background-size:60%, 60%;
