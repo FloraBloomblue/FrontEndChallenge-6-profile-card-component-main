@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat:no-repeat, no-repeat ;
+    background-attachment: fixed;
+    background-size:150%, 150%;
+    background-position:-300px -200px, 100px 400px ; 
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    
+    margin: 100px auto 50px;
+    height: 340px;
+    width: 340px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#pattern-img{
+    
+    height: 120px;
+    width: 340px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 2;
+    
+}
+.profile-div{
+    z-index: 1;
+    margin: -50px 120px 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+#victor-profile{
+    height: 80px;
+    width: 80px;
+    border: 8px white solid;
+    border-radius: 50%;
+    
+}
+h1{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p,span{
+    color: hsl(227, 10%, 46%);
+    font-size: 18px;
+    font-weight: 400;
+}
+.victor{
+    margin: 20px auto 5px;
+    text-align: center;
+}
+.London{
+    margin: 0px auto 0px;
+    text-align: center;
+}
+hr{
+   color:  hsl(0, 0%, 59%);
+   margin-top: 20px;
+}
+footer{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+}
+.followers{
+    margin: 10px auto 0;
+    text-align: center;
+}
+.likes{
+    margin: 10px auto 0;
+    text-align: center;
+}
+.photos{
+    margin: 10px auto 0;
+    text-align: center;
+}
+.foot-para{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.attribution{
+    text-align: center;
+}
+@media screen and ( min-width: 960px ){
+    body{
+        background-size:60%, 60%;
+        background-position: -150px -400px,  700px 300px;
+        
+    }
+    .container{
+        margin: 150px auto 60px;
+    }
+    
+}
